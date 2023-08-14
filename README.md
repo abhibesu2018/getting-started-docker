@@ -53,6 +53,9 @@ https://www.jenkins.io/doc/book/installing/docker/
   --volume jenkins-data:/var/jenkins_home \
   --volume jenkins-docker-certs:/certs/client:ro \
   myjenkins-blueocean:2.401.3-1
+  
+7. http://localhost:8080/login?from=%2F
+    - Reading login Jenkins read "Unlocking jenkins" in https://www.jenkins.io/doc/book/installing/docker/#setup-wizard   
 ```
 
 Youtube videos:
